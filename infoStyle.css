@@ -1,0 +1,136 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black; 
+}
+
+#me {
+  max-width: 200px; 
+  margin-right: 10px; 
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-right: 100px; 
+  text-decoration: none;
+  color: white;
+  font-size: 30px; 
+  font-family: 'Bahnschrift SemiBold';
+  font-style: italic; 
+}
+
+/* Style the dropdown button */
+.dropdown select {
+  background-color: black;
+  color: white;
+  padding: 0;
+  font-size: 29px;
+  border: none;
+  font-family: 'Bahnschrift SemiBold';
+  font-style: italic;
+  margin-top: 3px;
+}
+
+/* Style dropdown options */
+.dropdown select option {
+  color: white;
+  font-family: 'Bahnschrift SemiBold';
+  font-style: italic;
+}
+
+/* Change color of dropdown options on hover */
+.dropdown select option:hover {
+  background-color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+#loco {
+  border: none;   /* Removes the border */
+  width: 100%;    /* Adjusts the width to 100% of the parent container */
+  height: auto;   /* Maintains the aspect ratio while resizing */
+  max-width: 250px; /* Limits the maximum width of the image */
+  display: block;  /* Ensures the image behaves as a block element */
+  margin-left: 50px;
+  border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+  }
+
+h1{
+    color: white; 
+    font-size: 35px;
+    font-family: 'Bahnschrift SemiBold';
+    font-style: italic; 
+    text-align: middle;
+}
+
+p{
+  color: white; 
+  font-size: 20px;
+  font-family: 'Bahnschrift SemiBold';
+  font-style: italic; 
+  text-align: middle;
+}
+p2{
+  color: orange; 
+  font-size: 25px;
+  font-family: 'Arial';
+  font-style: italic; 
+}
+div.border.person{
+  color: black;
+  border-left: 3px solid; 
+  margin-left: 20px;       
+  margin-top: 70px;
+  flex: 1 0 90px; 
+}
+
+div.border {
+  color: black;
+  border-left: 3px solid;        
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 55px;
+  flex: 1 0 170px; 
+}
+div.border.pet {
+  color: black;
+  border-left: 3px solid;        
+  margin-bottom: 10px;
+  margin-top: 50px;
+  flex: 1 0 170px; 
+}
+.aligned {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  
+  .Fb-button {
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+  z-index: 999; 
+}
+.ig-button {
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  z-index: 999; 
+}
+.yt-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; 
+}

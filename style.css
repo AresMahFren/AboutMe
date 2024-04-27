@@ -1,0 +1,43 @@
+body {
+    background-image: url(city.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: 1400px 600px;
+    margin: 0;
+    padding: 0;
+   }
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',
+    }
+.box.img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 30;
+}
+.box button{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none; 
+}

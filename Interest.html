@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link rel="icon" type="image/png" href="Data.png">
+    <style>
+        body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      img {
+      display: block;
+      max-width: 80%;
+      height: auto;
+      margin: 0 auto;
+    }
+    .home-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999; 
+    }
+    h2 {
+            color: white; 
+            font-size: 35px;
+            font-family: 'Bahnschrift SemiBold';
+            font-style: italic; 
+            text-align: center;
+    }
+    #video-container {
+            text-align: center;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+      </style>
+</head>
+<body>
+    
+    <img src="hob.png" alt="What do I Like?">
+    <a href="info.html" class="home-button">
+      <img src="House.jpeg" alt="What do I Like?" width="50" height="50">
+  </a>
+
+  <div id="video-container">
+    <h2>Playing piano</h2>
+
+    <video width="640" height="360" controls>
+        <source src="lilmen.mp4" type="video/mp4">
+    </video>
+  </div>
+
+    <div id="video-container">
+    <h2>My Trio</h2>
+
+    <video width="640" height="360" controls>
+        <source src="Trio.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div id="video-container">
+    <h2>My Favourite of Song All Time</h2>
+
+    <audio controls>
+        <source src="Adventure Time.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
+
+
+    <h2>Gaming</h2>
+
+    <img src="Gift.gif" alt="Your GIF" width="480" height="270">
+
+</body>
+</html>
